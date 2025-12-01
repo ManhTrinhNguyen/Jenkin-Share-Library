@@ -1,5 +1,5 @@
 #!/user/bin/env groovy
-import com.example.Docker
+import ../src/com.example/Docker.groovy
 
 def call () {
   return new Docker(this).buildAndPushDockerImage()
